@@ -269,7 +269,7 @@
       <a class="btn btn-secondary" href="guide.pdf" download="高考资格申报填报指引.pdf">下载填报指引 PDF</a>
     </div>
 
-    <footer>仅供本班家长查询使用 · 如有疑问请联系班主任</footer>
+    <footer>仅供本班家长查询使用 · 请耐心等候，如有疑问可以联系 lulu 老师</footer>
   </div>
 
   <script src="data.js"></script>
@@ -409,7 +409,7 @@
         var body = document.getElementById("result-body");
         if (!rec.needDeclare) {
           banner.className = "banner ok";
-          banner.innerHTML = "您的孩子本次<strong>无需</strong>进行此项资格申报（学校登记为省内44开头户籍）。如有疑问请联系班主任。";
+          banner.innerHTML = "您的孩子本次<strong>无需</strong>进行此项资格申报（学校登记为省内44开头户籍）。请耐心等候，如有疑问可以联系 lulu 老师。";
           var html0 = "";
           html0 += '<div class="kv"><span class="k">学生</span><span class="v">' + escapeHtml(rec.name) + "</span></div>";
           if (rec.xuejihao) {
@@ -442,7 +442,7 @@
           if (rec.typeLabel && rec.typeLabel.indexOf("随迁") >= 0) {
             html += "<li>随迁子女：社保、居住证截止日期填 <strong>2027年8月31日</strong></li>";
           }
-          html += "<li>个人信息务必真实准确，切勿填错；填完后可对照下方指引图核对</li>";
+          html += "<li>个人信息务必真实准确，切勿填错；填完后可对照下方指引图核对</li><li>请耐心等候，如有疑问可以联系 lulu 老师。</li>";
           html += "</ul></div>";
           body.innerHTML = html;
         }
