@@ -272,7 +272,7 @@
     <footer>仅供本班家长查询使用 · 请耐心等候，如有疑问可以联系班主任 lulu 老师</footer>
   </div>
 
-  <script src="data.js"></script>
+  <script src="data.js?v=20261016c"></script>
   <script>
     /* Minimal sync SHA-256 (works on file:// when crypto.subtle is unavailable) */
     function sha256sync(str) {
@@ -383,7 +383,13 @@
           .trim();
       }
       function normalizeId(s) {
-        return String(s || "").trim().toUpperCase();
+        var t = String(s || "");
+        // fullwidth digits ０-９ → ASCII
+        t = t.replace(/[０-９]/g, function (ch) {
+          return String.fromCharCode(ch.charCodeAt(0) - 0xff10 + 0x30);
+        });
+        t = t.replace(/\s+/g, "");
+        return t.toUpperCase();
       }
       function showMsg(text, type) {
         msg.className = "msg " + (type || "error");
@@ -469,6 +475,15 @@
         return Promise.resolve(sha256sync(str));
       }
 
+      function hashMatches(s, hashId, hashNameId) {
+        return s.idHash === hashId || s.idHash === hashNameId
+          || s.idHashAlt === hashId || s.idHashAlt === hashNameId;
+      }
+      function findHits(name, hashId, hashNameId) {
+        return data.filter(function (s) {
+          return normalizeName(s.name) === name && hashMatches(s, hashId, hashNameId);
+        });
+      }
       function query() {
         hideMsg();
         hideResults();
@@ -481,21 +496,18 @@
           return;
         }
         queryBtn.disabled = true;
-        var payload = idn; // idHash = SHA-256(身份证号); name matched separately
-        sha256hex(payload).then(function (hash) {
-          var hits = data.filter(function (s) {
-            return normalizeName(s.name) === name && s.idHash === hash;
-          });
+        // Dual-match: SHA-256(身份证号) OR SHA-256(姓名|身份证号) — covers cache mismatch
+        Promise.all([sha256hex(idn), sha256hex(name + "|" + idn)]).then(function (hashes) {
+          var hits = findHits(name, hashes[0], hashes[1]);
           if (hits.length === 0) {
             showMsg(FAIL, "error");
             return;
           }
           showStudent(hits[0]);
         }).catch(function () {
-          var hash = sha256sync(payload);
-          var hits = data.filter(function (s) {
-            return normalizeName(s.name) === name && s.idHash === hash;
-          });
+          var hashId = sha256sync(idn);
+          var hashNameId = sha256sync(name + "|" + idn);
+          var hits = findHits(name, hashId, hashNameId);
           if (hits.length === 0) {
             showMsg(FAIL, "error");
             return;

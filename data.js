@@ -1,4 +1,5 @@
 // Auto-generated. Do not edit by hand. No plaintext 身份证. 学籍号 is shown for form fill.
+// idHash = SHA-256(身份证号); idHashAlt = SHA-256(姓名|身份证号) for cache-compat dual match.
 window.STUDENT_DATA = [
   {
     "name": "温云帆",
@@ -8,7 +9,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "1747347abd2ffc40aac68ae61bdf331f0a7c41c7822df9a88c61334ba8e8d864",
-    "xuejihao": "G440304200811130766"
+    "xuejihao": "G440304200811130766",
+    "idHashAlt": "a7d014cd201d574dcd3a41d9ede9fba03668099e3b6d0e4bdee0431540afb9ed"
   },
   {
     "name": "盘昕瑜",
@@ -18,7 +20,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "04f2dd8b63d0a2e7fc345506d0a05e54ddb7d8a9acf25125c1b3bf4a5edd62bd",
-    "xuejihao": "G440303200903217328"
+    "xuejihao": "G440303200903217328",
+    "idHashAlt": "f4a05bff844e399f9ac9290752e32b887775495efcc190a71c73d8e2f98aa3b5"
   },
   {
     "name": "叶羽萱",
@@ -28,7 +31,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "8529deb6134fd0f1cae8d210dcd479af881163bfb3326740460f18683d5abc5f",
-    "xuejihao": "G360726200904270020"
+    "xuejihao": "G360726200904270020",
+    "idHashAlt": "3993b6a9d960b5e3dbdba8382e4f317070028914ca6e20fdc46157ea127a556b"
   },
   {
     "name": "刘佳颖",
@@ -38,7 +42,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "a8ca03beee2de9916dea1ab6c7998d270eced3aedec9e26491ae5de2365ebaaa",
-    "xuejihao": "G441502200811022123"
+    "xuejihao": "G441502200811022123",
+    "idHashAlt": "61093239540a34514b800339dedd354c20cb7228c9826a7d8c815b249c2af00d"
   },
   {
     "name": "姚青吟",
@@ -48,7 +53,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "a6e4bd24ac9742ae8f9a99169b4759abe0fc5b0a8a68bf3f33d0daa9c5d326a8",
-    "xuejihao": "G420103200812184968"
+    "xuejihao": "G420103200812184968",
+    "idHashAlt": "f5ee2194fa8c8d8aaa02d82ff540d22dbdc398529969156df314d0b22f54b75c"
   },
   {
     "name": "袁梦琪",
@@ -58,7 +64,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "6bd838ae924cca20a7df11a8363fde8499c33dbad3ecae984e81c05d7abbcb85",
-    "xuejihao": "G43052420090102032X"
+    "xuejihao": "G43052420090102032X",
+    "idHashAlt": "5b3d4e9baeee481505ea226b7b08f02f104c88818b47d966ef51c4a75969311e"
   },
   {
     "name": "卢熙晨",
@@ -68,7 +75,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "152c8a78bf20531bb42bdd411ee05237aad20991815c8833b4a280285cd20066",
-    "xuejihao": "G440303200908282743"
+    "xuejihao": "G440303200908282743",
+    "idHashAlt": "3dc9bed98b11dd0477ed4da21b90e4847749241d385bcb7e396b17b2e1337b49"
   },
   {
     "name": "王子月",
@@ -78,7 +86,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "608eb2f248174a4cc8fad5a2bc5c374468140071a50028d5a723f96af9a974b8",
-    "xuejihao": "G511323200810150042"
+    "xuejihao": "G511323200810150042",
+    "idHashAlt": "37e90e1db13938d3c9b2ce91f0707e02f900e0aa420065bca0e528cb17b31f74"
   },
   {
     "name": "罗卓伶",
@@ -88,7 +97,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "5f313191e52a5b287a6e5afebe4832fdc0735f4ef82adfc967dd2089e3a912aa",
-    "xuejihao": "G440307200907011824"
+    "xuejihao": "G440307200907011824",
+    "idHashAlt": "d479635194714cdd550bfb5f3c267925327da07a24829075cc25f2f3441b77de"
   },
   {
     "name": "阳安皓",
@@ -98,7 +108,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "9bb2fd1905f74315dbcaac6b415129f14ea82af78c90ef77d1ad13fea1d1faa2",
-    "xuejihao": "G440303200907176949"
+    "xuejihao": "G440303200907176949",
+    "idHashAlt": "09177806651ca2676a94087ccc5bf3844d0adc46505fd1527e9b657a733a691b"
   },
   {
     "name": "胡澜",
@@ -108,7 +119,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "3ded745b664dbd6773d025899d27c2d7eed1aff2dbbaad8d254b276c998054d7",
-    "xuejihao": "G430981200905057380"
+    "xuejihao": "G430981200905057380",
+    "idHashAlt": "fbb4144c36c2f08b0dacd38d5bb1a2af953488f558d92805714e9e7721b8f21b"
   },
   {
     "name": "黄怡冰",
@@ -118,7 +130,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "d4492ec9529a3cd75e316e839e105f8fe40f919571702a5d7daba99dcbf17c34",
-    "xuejihao": "G441422200808122924"
+    "xuejihao": "G441422200808122924",
+    "idHashAlt": "458b5486c39bd7f446bdc1f1c6d6288721a9640e28373e1bd7152b97c9fc9b53"
   },
   {
     "name": "郑露冬",
@@ -128,7 +141,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "1f073b0a0820c4ec34a1d89294af4c6c4da4a794290cf3c187f56b8fec40f8f2",
-    "xuejihao": "G445281200906292727"
+    "xuejihao": "G445281200906292727",
+    "idHashAlt": "da3249733d6935d2ef70332df6577008300644e9aedef342d1549e1a9f96d5e8"
   },
   {
     "name": "程楚馨",
@@ -138,7 +152,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "4f7074b110acc598cdb466b77809af91748aad2bfef17bb1565bc7482a920823",
-    "xuejihao": "G440308200811130323"
+    "xuejihao": "G440308200811130323",
+    "idHashAlt": "c334b0f66937506b49f8031d8c76bb3afeb314a13544e856f68791878e7b2cb7"
   },
   {
     "name": "马睿妍",
@@ -148,7 +163,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "e4bdbca4066d2eb23b728288b88aca64c8b0142a0465dee08babd129f6a261b2",
-    "xuejihao": "G441423200809282328"
+    "xuejihao": "G441423200809282328",
+    "idHashAlt": "e65078fec60a2b8101474b2f3a33e8953012ff3bf62ccd42522f59ebbf48f292"
   },
   {
     "name": "黄婉桐",
@@ -158,7 +174,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "7a58fae5ff63110491df78ed1a3443d10b8c597d208cf9b59b5cfbef4e3f92e6",
-    "xuejihao": "G440303200908148528"
+    "xuejihao": "G440303200908148528",
+    "idHashAlt": "afe969d6e61878779faa574f45918e7a9bdfd540a79b5908533a76528970e8b1"
   },
   {
     "name": "董致远",
@@ -168,7 +185,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "ece4b03e0249c9a3f0ffad49f58c775e9f2dbea7fbf5a82ff9535061317a2372",
-    "xuejihao": "G411327200812041335"
+    "xuejihao": "G411327200812041335",
+    "idHashAlt": "ba75446e907af5fb1dc9e189c232d43e25cf0ed12d2f400521450df1650c1ab5"
   },
   {
     "name": "贝佳欣",
@@ -178,7 +196,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省外户籍（随迁子女）",
     "formHint": "在系统「资格申请」填《随迁子女审核表》（附件1）",
     "idHash": "bbe8984ac77b8982b1acf1cc459a2fccad1a105f400cc76ad075b96a06b6ff3b",
-    "xuejihao": "G469022200812295122"
+    "xuejihao": "G469022200812295122",
+    "idHashAlt": "a5a784c7c5e0839dcc15c8e2a2d4bfa4bd473bdd83b574c7dcfec82daad55a5c"
   },
   {
     "name": "彭小玲",
@@ -188,7 +207,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省外户籍（随迁子女）",
     "formHint": "在系统「资格申请」填《随迁子女审核表》（附件1）",
     "idHash": "04fc1f11624aca153b6e2d51bea0b5cf479b3e22b859271a972b84a97a1d5734",
-    "xuejihao": "G511902200811184026"
+    "xuejihao": "G511902200811184026",
+    "idHashAlt": "5539cf108224f3517fac2b7e3e0a70dd26b950a347de19f27d4766e39a50d140"
   },
   {
     "name": "丘嘉琪",
@@ -198,7 +218,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "0ee58fbfda03039ff6a26b0015fb996a41328af12ac831d83f4a2f4f71a39efe",
-    "xuejihao": "G441426200812262247"
+    "xuejihao": "G441426200812262247",
+    "idHashAlt": "fa4fa694448be179c65d740f9a550ab9f5616ddc4054e89e1411a4a21039253a"
   },
   {
     "name": "林子容",
@@ -208,7 +229,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "5012132080e5f8d89eba0e454e7e4c80b2b517b9ffa14e33eda8876e49a4bf8b",
-    "xuejihao": "G440304200905230020"
+    "xuejihao": "G440304200905230020",
+    "idHashAlt": "92bb4f27056c126d5e5f55c42ec0dd6e752cba064f1ec6ddc5c42a3189da5a72"
   },
   {
     "name": "张钰婷",
@@ -218,7 +240,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "254ff09a0b5976361f180a1f9048b88c739dd9376f209029efbc59cc13a6fa9f",
-    "xuejihao": "G440303200812254828"
+    "xuejihao": "G440303200812254828",
+    "idHashAlt": "d9dbc20259ec889eaa5bb222afd291584e3d30409bc868388aad7eea43228ceb"
   },
   {
     "name": "黄子路",
@@ -228,7 +251,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "60cde40a58d7c268c901f3329e8aa244d1d803ebdbb284d5554f44d11ee6584a",
-    "xuejihao": "G510824200901088021"
+    "xuejihao": "G510824200901088021",
+    "idHashAlt": "6b4733a67926721fc0d56c634c88dd1b2fc213432cce89c30e4ef34cc7b7cfba"
   },
   {
     "name": "王思晴",
@@ -238,7 +262,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "2de813bb156c14db7ca63daf9340e14ea256388729cc28b0fb90e3569a0f5011",
-    "xuejihao": "G500234200901206882"
+    "xuejihao": "G500234200901206882",
+    "idHashAlt": "081e31fc821e9d14798e8f1e3cc7f38b2bba9c312775f3d54fd725c87f13341e"
   },
   {
     "name": "丁淑慧",
@@ -248,7 +273,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省外户籍（随迁子女）",
     "formHint": "在系统「资格申请」填《随迁子女审核表》（附件1）",
     "idHash": "b50e9327fd0d013484e15369ecc608294d3df609851915a4454ca4d6615ef03a",
-    "xuejihao": "G440881200810242424"
+    "xuejihao": "G440881200810242424",
+    "idHashAlt": "a4a82b4d68bf26644376198289e45da74fd91be33d233320340579e969429157"
   },
   {
     "name": "魏荷靖",
@@ -258,7 +284,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "5276fc86ecbba48b3112148674ee1f00e23ccb94b6b71632d2a4a418df60b3dd",
-    "xuejihao": "G441622200902215167"
+    "xuejihao": "G441622200902215167",
+    "idHashAlt": "2de7b37e6fefb42b95f68603a3a63181ee2316dc5bc3b7628802ed7e5c8344a6"
   },
   {
     "name": "黄芳源",
@@ -268,7 +295,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "ef2dc9feb78f034e1d8bb93459d70b10ac14b05e574363841d8fcbc5239e3084",
-    "xuejihao": "G441623200905230342"
+    "xuejihao": "G441623200905230342",
+    "idHashAlt": "29b364bbdcf7cbbc8f2f5b48505f55033a7989e5e920c6477bda3cbfe750b809"
   },
   {
     "name": "郑娇然",
@@ -278,7 +306,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省外户籍（随迁子女）",
     "formHint": "在系统「资格申请」填《随迁子女审核表》（附件1）",
     "idHash": "da697828213dc21c1fe34c53678c05f5c2a2d6c54649efff0f54e66d107dee20",
-    "xuejihao": "G331121200901059183"
+    "xuejihao": "G331121200901059183",
+    "idHashAlt": "fd0e6729ac7d2b2d143a2ca13c61b92805b18b11b22227d0b633fdeb2ef1afc1"
   },
   {
     "name": "潘欣然",
@@ -288,7 +317,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "819bb80b244398d1f66a92735345ee9357f0bd76616afc42c324d7795a321927",
-    "xuejihao": "G440307200907043121"
+    "xuejihao": "G440307200907043121",
+    "idHashAlt": "add9f2ccd5fd5b5940065c9957402ada0d61693deff34f799322b54645b00230"
   },
   {
     "name": "刘嘉淇",
@@ -298,7 +328,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "6f2a7c2d07e7881ebc1e5abec6ff16ae8e93cb74a7ee7bcabb772b99a4182f4d",
-    "xuejihao": "G441521200907083085"
+    "xuejihao": "G441521200907083085",
+    "idHashAlt": "a8dc30a1da119cce3379c294e97243acec373cb6cec8836c01b6dfaeadec992d"
   },
   {
     "name": "陈彦霏",
@@ -308,7 +339,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "4edbed1b85ee4aa3f858ab5bda63a3a1a935c865c672b5e60b8a6da2b042bb5f",
-    "xuejihao": "G440307200901094868"
+    "xuejihao": "G440307200901094868",
+    "idHashAlt": "8a152868a9c00339b0d1f721fa75c61b5c53b4c72539c4556f4f990098e6ba47"
   },
   {
     "name": "林诗敏",
@@ -318,7 +350,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "251cd4a47e6d1e037674f165efeed430cf2c8c91e8c539eda4e169a188c835d8",
-    "xuejihao": "G445224200907080665"
+    "xuejihao": "G445224200907080665",
+    "idHashAlt": "c714d6722d24d997447ef04a9cb016bdb45c13bb53a5ac0f53083904f7a5e01f"
   },
   {
     "name": "朱芷萱",
@@ -328,7 +361,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "27798667df575421b87a2ea85676dd3a89e840f4d629655e6556a80aa427b138",
-    "xuejihao": "G440607200809050121"
+    "xuejihao": "G440607200809050121",
+    "idHashAlt": "8d6dd5ba389caa7ef338802106397a88d3911c2a3cd22bb65368efec9934d1c5"
   },
   {
     "name": "谢子晨",
@@ -338,7 +372,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "15395907a0a802b34d1534122058511b79e034fe324f0c3fd8b1b3054898d5c2",
-    "xuejihao": "G441623200811041727"
+    "xuejihao": "G441623200811041727",
+    "idHashAlt": "0fd5f57e2fc6a8685d5b7ccdf24628c1c63d9cb034afaec032c0aff1b7a9bdb8"
   },
   {
     "name": "陈诗雨",
@@ -348,7 +383,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "2d41aada92596ed1bde803e6e42e81f9095fdb4103f811cd0d495df5e7f6c14d",
-    "xuejihao": "G440233200809261501"
+    "xuejihao": "G440233200809261501",
+    "idHashAlt": "d5610a3987b1ddd9cc4378a76e1cd857efb012e887bc63e6d39eedf37919cb41"
   },
   {
     "name": "卢艾林",
@@ -358,7 +394,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省外户籍（随迁子女）",
     "formHint": "在系统「资格申请」填《随迁子女审核表》（附件1）",
     "idHash": "b282081ae9d107d861f2bda82a19d8c568a6369b64363c3c96bb97cf7be5b834",
-    "xuejihao": "G341302200901279526"
+    "xuejihao": "G341302200901279526",
+    "idHashAlt": "4c57697a6c6afe3321e69d39c5a2301968dc6a986b680d8d79dc57be8517fd18"
   },
   {
     "name": "黄子钰",
@@ -368,7 +405,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "3557a9bc718b269b66988689785c10690fe45665da2887bec9023622458b1669",
-    "xuejihao": "G411622200908182022"
+    "xuejihao": "G411622200908182022",
+    "idHashAlt": "192b629ab68eb6c8a473776785109fa7a1a79c34d12f680211a79525c6b921da"
   },
   {
     "name": "石梓睿",
@@ -378,7 +416,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "dade0ea63d322155087620e8e820d270aec00cde236ba7c17e381d1e6e533458",
-    "xuejihao": "G440303200908136922"
+    "xuejihao": "G440303200908136922",
+    "idHashAlt": "de082378f961ea7fd39af58305b659b1b9b06a92a699f3706f2f7d1f0d3412b3"
   },
   {
     "name": "黄浩扬",
@@ -388,7 +427,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "489a1e60b5e036df6a88bb06540f73db8f0c705fe256ef6e5ff4bb6211a71ecd",
-    "xuejihao": "G441624200906120838"
+    "xuejihao": "G441624200906120838",
+    "idHashAlt": "60b8d1dfac6e4b49431fde0baa70246412abf5b12a2c5b9b50d9edcaebf21d82"
   },
   {
     "name": "陈依静",
@@ -398,7 +438,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "78c7bc3d3bab2adf6b44a7c637bee93153da3d6be239a43773beb19771871eb8",
-    "xuejihao": "G430481200807274966"
+    "xuejihao": "G430481200807274966",
+    "idHashAlt": "17a722755c51b529177eae43aa987e4a7b42a1aad791202a58404d18be1f2952"
   },
   {
     "name": "李晓莹",
@@ -408,7 +449,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "17fedd2510bee644c49f9aac172516c783526b79e179747d2bfd8ffb3ddd3f09",
-    "xuejihao": "G44158120090120572X"
+    "xuejihao": "G44158120090120572X",
+    "idHashAlt": "27988ae080a05e386c296f5071a5dc1515fca4bc9b4ece48d9b4ac312f848e66"
   },
   {
     "name": "邱桐",
@@ -418,7 +460,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "57cbb8cf4442d41661ea0609e2fcba16f822a7e36aaa92db928933100569c565",
-    "xuejihao": "G441581200811023121"
+    "xuejihao": "G441581200811023121",
+    "idHashAlt": "b054b871d29c12acc7208912318093a5b65f4423f982d5390635910ea8356eca"
   },
   {
     "name": "罗丁浩",
@@ -428,7 +471,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "df6ec43987f48719118e692d4bd3ab119ec06d6b0b541710d6d1a4cf27fac5a6",
-    "xuejihao": "G441423200901282718"
+    "xuejihao": "G441423200901282718",
+    "idHashAlt": "e154351663bc77dacf41d8265ab4420e2a6ebc8e0ce327e4bfc8efeba015ba40"
   },
   {
     "name": "吴思彤",
@@ -438,7 +482,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "e345c72661e3c468bd74201708d391750ed22eb6e2f20116aa72f98a1c34ca1b",
-    "xuejihao": "G44142620090119002X"
+    "xuejihao": "G44142620090119002X",
+    "idHashAlt": "a92b583676b1915aa45d88f6f40dbc55ba0cb60cecfb55227d083a73926b2d30"
   },
   {
     "name": "吴振宇",
@@ -448,7 +493,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "eaa099a350494b3d30f5c0e67718ef03b287829b992df341b8f8fdd5396383ad",
-    "xuejihao": "G440902200812280416"
+    "xuejihao": "G440902200812280416",
+    "idHashAlt": "42a576b35b888a6f314c481efeb71c225e0eec85c2d8caba07afab38784df32c"
   },
   {
     "name": "巨怡文",
@@ -458,7 +504,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省外户籍（随迁子女）",
     "formHint": "在系统「资格申请」填《随迁子女审核表》（附件1）",
     "idHash": "6e7e760a310659067ec346d9bfa39dbbea6e40d93f7a54b19618fd8352fd9774",
-    "xuejihao": "G341126200904227529"
+    "xuejihao": "G341126200904227529",
+    "idHashAlt": "c1f8c4fb43b865556b2e28cb32b5c9a9e7ef919207f9d1a53e2a3e536a3e9319"
   },
   {
     "name": "顾诗韵",
@@ -468,7 +515,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省外户籍（随迁子女）",
     "formHint": "在系统「资格申请」填《随迁子女审核表》（附件1）",
     "idHash": "58bdac74fd365afdf426f70cc86545472738b20c2caa2748933d1319b4b1daeb",
-    "xuejihao": "G360122200810038425"
+    "xuejihao": "G360122200810038425",
+    "idHashAlt": "ab3fb92793ff2734daea789e248f97ffadaeb81fbf9e57d0167d39a82350e93f"
   },
   {
     "name": "刘晓悦",
@@ -478,7 +526,8 @@ window.STUDENT_DATA = [
     "typeLabel": "省内户籍且身份证非44开头",
     "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
     "idHash": "3f726a4878ca0b1183bf11bf0f4c2f6822356295909386020da0feb4622fb5f9",
-    "xuejihao": "G420902200904011228"
+    "xuejihao": "G420902200904011228",
+    "idHashAlt": "d707135d136804341a666b6297799f56cb54997e5a9d438912bd1e48599b5714"
   },
   {
     "name": "曾雅莉",
@@ -487,7 +536,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "b069fb13f67b126cbcfedbc422608aa30e55c3841a0022d69e32e29919af4796",
-    "xuejihao": "G441523200802047582"
+    "xuejihao": "G441523200802047582",
+    "idHashAlt": "b639e704d9873d5e3d52de8cb2a3efbfd32f875f3046dd0e475a08945775a1ef"
   },
   {
     "name": "吴汝曼",
@@ -497,7 +547,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "92fa271da963efb8ae5abc15db0c7aa8e98a0b52425112aed14187654d557cb7",
-    "xuejihao": "G440883200901271127"
+    "xuejihao": "G440883200901271127",
+    "idHashAlt": "96695b8c284984654cbac10398f8de0d470256604a126dae14c039a1c2b573ad"
   },
   {
     "name": "朱迪",
@@ -507,7 +558,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "36c5cacd911d6af3311d81ba0eeb69e0d4a74ea13a57525ff8605a4ec94dfb28",
-    "xuejihao": "G440306200906061022"
+    "xuejihao": "G440306200906061022",
+    "idHashAlt": "c993b0891a209b2f03840640e866dd8eed8533d59979f391b9cc4c1474b7ad0d"
   },
   {
     "name": "林俏玲",
@@ -517,7 +569,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "ab6a1ac59ad0f1b416de1dbede9697d7253f7145ecab7394885f954bd1490f05",
-    "xuejihao": "G440513200904032943"
+    "xuejihao": "G440513200904032943",
+    "idHashAlt": "6856f1303df6f3f41f73f89ed764b6176720cadb65f8b4c10823dd8f443bc874"
   },
   {
     "name": "林樱淇",
@@ -527,7 +580,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "dbb8a8779dcf1e73d881ebba8ffab8a76be5a5669ea154a82e09f30e559ff728",
-    "xuejihao": "G445281200908072744"
+    "xuejihao": "G445281200908072744",
+    "idHashAlt": "91b18f995e0d4581483a082dd406f693206b27742c4ace4d05c0765e063816bb"
   },
   {
     "name": "谭羽轩",
@@ -537,7 +591,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "22d638964f715ca362891fe543256b1319c810fedd7763aa2883a71a3c9a4578",
-    "xuejihao": "G440307200903314828"
+    "xuejihao": "G440307200903314828",
+    "idHashAlt": "070a5e6cb83ccdda37999380258aac8458c71e8809aa3ed7fce49e257987a4e0"
   },
   {
     "name": "李芷苗",
@@ -547,7 +602,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "88e0e047c66ddcc473240a4b36f21ef5ae93c2f54fe4d834000c9c9f7535c9b2",
-    "xuejihao": "G440902200908240427"
+    "xuejihao": "G440902200908240427",
+    "idHashAlt": "8351961b5b3cb057cde552e75ede19024b7c0af2d310a40dec8837c1a5952c72"
   },
   {
     "name": "郝钟涵",
@@ -557,7 +613,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "34648e5c8eed090a33a392193ca9b3398940341c2811a3b440dbe868c38a4b72",
-    "xuejihao": "G440304200906066728"
+    "xuejihao": "G440304200906066728",
+    "idHashAlt": "e8f11c3e3e076ee56c296eea35981a7518081a4e31f6b0e3a28f4e9fd8f08d1c"
   },
   {
     "name": "王振权",
@@ -567,7 +624,8 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "454f76b8b8e95ec55df82646995b5782d0e28bcde23c439a336df83a875336cd",
-    "xuejihao": "G445224200805073958"
+    "xuejihao": "G445224200805073958",
+    "idHashAlt": "ab4c3201681fc308bb2a1c06b9f089d56aebcbcb12386772616cb753f8520807"
   },
   {
     "name": "韩林傲",
@@ -577,6 +635,7 @@ window.STUDENT_DATA = [
     "typeLabel": null,
     "formHint": null,
     "idHash": "e99b364b1e78387168521c60e79bd38084ce3fbce3128994547b12390fb5172e",
-    "xuejihao": "G440307200901213118"
+    "xuejihao": "G440307200901213118",
+    "idHashAlt": "a3d1ccc7eb994da4d59360c284ad55834ce7e69877f4dd45d98d126f4f8d49b7"
   }
 ];
