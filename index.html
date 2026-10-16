@@ -157,6 +157,14 @@
     }
     .kv .k { color: var(--muted); display: inline-block; min-width: 5.5em; }
     .kv .v { color: var(--text); font-weight: 600; }
+    .kv .v.xueji {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.95rem;
+      letter-spacing: 0.02em;
+      word-break: break-all;
+      user-select: all;
+      -webkit-user-select: all;
+    }
     .tips {
       margin-top: 12px;
       padding: 12px;
@@ -402,14 +410,21 @@
         if (!rec.needDeclare) {
           banner.className = "banner ok";
           banner.innerHTML = "您的孩子本次<strong>无需</strong>进行此项资格申报（学校登记为省内44开头户籍）。如有疑问请联系班主任。";
-          body.innerHTML =
-            '<div class="kv"><span class="k">学生</span><span class="v">' + escapeHtml(rec.name) + "</span></div>" +
-            '<div class="kv"><span class="k">学籍学校</span><span class="v">' + escapeHtml(rec.school || "") + "</span></div>";
+          var html0 = "";
+          html0 += '<div class="kv"><span class="k">学生</span><span class="v">' + escapeHtml(rec.name) + "</span></div>";
+          if (rec.xuejihao) {
+            html0 += '<div class="kv"><span class="k">学籍号</span><span class="v xueji">' + escapeHtml(rec.xuejihao) + "</span></div>";
+          }
+          html0 += '<div class="kv"><span class="k">学籍学校</span><span class="v">' + escapeHtml(rec.school || "") + "</span></div>";
+          body.innerHTML = html0;
         } else {
           banner.className = "banner need";
           banner.innerHTML = "您的孩子<strong>需要</strong>完成高考资格网上申报，请于 " + DEADLINE + " 填报。";
           var html = "";
           html += '<div class="kv"><span class="k">学生</span><span class="v">' + escapeHtml(rec.name) + "</span></div>";
+          if (rec.xuejihao) {
+            html += '<div class="kv"><span class="k">学籍号</span><span class="v xueji">' + escapeHtml(rec.xuejihao) + "</span></div>";
+          }
           html += '<div class="kv"><span class="k">申报类型</span><span class="v">' + escapeHtml(rec.typeLabel || "") + "</span></div>";
           html += '<div class="kv"><span class="k">学籍学校</span><span class="v">' + escapeHtml(rec.school || "") + "</span></div>";
           if (rec.hukouPlace) {
