@@ -439,6 +439,8 @@
           html += "<li>学籍类型选<strong>应届生</strong></li>";
           html += "<li>学籍学校请选录取通知书上的学籍学校（当前登记：" + escapeHtml(rec.school || "") + "）</li>";
           html += "<li>校名四选一（明理 / 崇文 / 卓越 / 至臻），勿选错</li>";
+          html += "<li>简历中「高中实际就读学校」须填写考生<strong>高一录取时的学籍学校</strong>（国家学籍号表格中有学籍学校名称，请准确填写）；实际就读学校须与学籍学校一致</li>";
+          html += "<li>不可写成「高一在卓越、高二在崇文、高三在明理」等分段写法，此类填写错误</li>";
           if (rec.typeLabel && rec.typeLabel.indexOf("随迁") >= 0) {
             html += "<li>随迁子女：社保、居住证截止日期填 <strong>2027年8月31日</strong></li>";
           }
