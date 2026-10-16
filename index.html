@@ -481,7 +481,7 @@
           return;
         }
         queryBtn.disabled = true;
-        var payload = name + "|" + idn;
+        var payload = idn; // idHash = SHA-256(身份证号); name matched separately
         sha256hex(payload).then(function (hash) {
           var hits = data.filter(function (s) {
             return normalizeName(s.name) === name && s.idHash === hash;
