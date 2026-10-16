@@ -235,8 +235,8 @@ window.STUDENT_DATA = [
     "school": "深圳实验学校崇文高中",
     "hukouPlace": "重庆市城区南岸区",
     "needDeclare": true,
-    "typeLabel": "省内户籍且身份证非44开头",
-    "formHint": "在系统「资格申请」填《学籍户籍审核表》（附件2）",
+    "typeLabel": "省外户籍（随迁子女）",
+    "formHint": "在系统「资格申请」填《随迁子女审核表》（附件1）",
     "idHash": "081e31fc821e9d14798e8f1e3cc7f38b2bba9c312775f3d54fd725c87f13341e",
     "xuejihao": "G500234200901206882"
   },
